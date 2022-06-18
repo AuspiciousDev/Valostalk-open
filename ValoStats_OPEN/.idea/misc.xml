@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/drawable-v24/edit_roundedcorners.xml" value="0.1" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/drawable/edit_roundedcorners.xml" value="0.238" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2415" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/drawable/login_bgheader.xml" value="0.248" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/drawable/login_editheader.xml" value="0.244" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/drawable/matchfill_lose.xml" value="0.3635" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/drawable/matchfill_win.xml" value="0.3625" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/drawable/search_edtheader.xml" value="0.2415" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/font/.xml" value="0.3927083333333333" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/font/abhaya_libre.xml" value="0.3927083333333333" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/font/alata.xml" value="0.3885416666666667" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/font/inter.xml" value="0.3927083333333333" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/layout/activity_profile.xml" value="0.3625" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/layout/activity_registration.xml" value="0.33" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/layout/activity_search_result.xml" value="0.5" />
+        <entry key="..\:/Users/Schmickzer/AndroidStudioProjects/ValoStats/app/src/main/res/layout/login_bgheader.xml" value="0.3625" />
+        <entry key="..\:/Users/Schmickzer/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/drawable/matchfill_win.xml" value="0.3635" />
+        <entry key="..\:/Users/Schmickzer/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_login.xml" value="0.3625" />
+        <entry key="..\:/Users/Schmickzer/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Schmickzer/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_profile.xml" value="0.3625" />
+        <entry key="..\:/Users/Schmickzer/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_search_result.xml" value="0.3625" />
+        <entry key="..\:/Users/Schmickzer/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_user_not_found.xml" value="0.3625" />
+        <entry key="..\:/Users/Schmickzer/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/layout_match_list.xml" value="0.5" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk-Open/ValoStats/app/src/main/res/drawable/matchfill_lose.xml" value="0.3445" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk-Open/ValoStats/app/src/main/res/drawable/matchfill_win.xml" value="0.3445" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk-Open/ValoStats/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk-Open/ValoStats/app/src/main/res/layout/activity_match_details.xml" value="0.2765625" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk-Open/ValoStats/app/src/main/res/layout/activity_search_result.xml" value="0.25625" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk-Open/ValoStats/app/src/main/res/layout/activity_user_not_found.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk-Open/ValoStats/app/src/main/res/layout/layout_match_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk-Open/ValoStats/app/src/main/res/layout/layout_red_team_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk-Open/ValoStats/app/src/main/res/menu/bottom_nav_menu.xml" value="0.365625" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/drawable/matchBlueTeam.xml" value="0.3255" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/drawable/match_team_blue.xml" value="0.3255" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/drawable/match_team_red.xml" value="0.3255" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_match_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_profile.xml" value="0.275" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_registration.xml" value="0.33" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_search_result.xml" value="0.275" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_user_not_found.xml" value="0.33" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/layout_blue_team_list.xml" value="0.3260416666666667" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/layout_match_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chest/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/layout_red_team_list.xml" value="0.3260416666666667" />
+        <entry key="..\:/Users/chest/Downloads/Schmickzer/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/drawable/ic_baseline_search_white24.xml" value="0.196" />
+        <entry key="..\:/Users/chest/Downloads/Schmickzer/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_profile.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/chest/Downloads/Schmickzer/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_search_result.xml" value="0.33" />
+        <entry key="..\:/Users/chest/Downloads/Schmickzer/Documents/GitHub/Valostalk/ValoStats/app/src/main/res/layout/activity_user_not_found.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.12643678160919541" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

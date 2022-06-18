@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#222831</color>
+    <color name="primaryColor90">#90222831</color>
+    <color name="primaryLightColor">#393E46</color>
+    <color name="primaryDarkColor">#102027</color>
+    <color name="secondaryColor">#00ADB5</color>
+    <color name="secondaryLightColor">#FF018786</color>
+    <color name="secondaryDarkColor">#002171</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#FF5722</color>
+    <color name="radiantTextColor">#FFFFAA</color>
+    <color name="gradientRed">#702B2A</color>
+    <color name="gradientGreen">#155F51</color>
+    <color name="lightGreen">#00FFCF</color>
+    <color name="lightRed">#FF0000</color>
+
+
+
+
+</resources>

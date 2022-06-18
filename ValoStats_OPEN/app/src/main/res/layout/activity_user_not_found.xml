@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".UserNotFound">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="15dp"
+        app:cardMaxElevation="8dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="@color/primaryColor">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_bold"
+                android:text="404"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="60sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_semibold"
+                android:text="WE COULD NOT FIND THE PLAYER"
+                android:textAlignment="center"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/u404_tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_regular"
+                android:text="RIOTNAME #TAG"
+                android:textAlignment="center"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/notFound_btnSearch"
+                android:layout_margin="20dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/secondaryTextColor"
+                android:text="Search again"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="12dp"
+                app:icon="@drawable/ic_baseline_search_24"
+                app:iconGravity="start"
+                app:iconPadding="-20dp"
+                app:iconSize="20dp"
+                app:iconTint="@color/primaryTextColor" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

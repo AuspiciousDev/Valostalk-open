@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "8679432416",
+    "project_id": "mad2-2022",
+    "storage_bucket": "mad2-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8679432416:android:f7aff9462a9fddea1d7085",
+        "android_client_info": {
+          "package_name": "com.example.valostats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8679432416-tnv823mbdeb9f0dkbc7vlesumqg1ilr7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.valostats",
+            "certificate_hash": "bdd48308fadd6fc61b84b6a04fdccebb1bd85ece"
+          }
+        },
+        {
+          "client_id": "8679432416-i83e6ab6tr2cphdtq695o8f51v5ncilb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeUwDVTFtBtoBd3DzuNKDnuz2jJsxz1yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8679432416-i83e6ab6tr2cphdtq695o8f51v5ncilb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

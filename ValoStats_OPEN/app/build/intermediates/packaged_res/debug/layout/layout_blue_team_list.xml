@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="2dp"
+    android:orientation="horizontal">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/reclayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/matchfill_win"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/matchAgent"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_unknown" />
+
+            <ImageView
+                android:id="@+id/matchRank"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/icon_unknown" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/matchIGNname"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:fontFamily="@font/inter_bold"
+                    android:maxWidth="100dp"
+                    android:text="RIOT NAME"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/matchIGNtag"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:fontFamily="@font/inter_semibold"
+                    android:maxWidth="100dp"
+                    android:text="#TAG"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".9"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/matchACS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="000 ACS"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/matchADR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_regular"
+                    android:text="000 ADR"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:layout_marginLeft="5dp"
+                android:columnCount="1"
+                android:rowCount="2">
+
+                <TextView
+                    android:id="@+id/matchKDARatio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="0.00 KDA"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/matchKDA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_regular"
+                    android:text="00 / 00 / 00"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="10sp" />
+
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:columnCount="1"
+                android:layout_marginLeft="5dp"
+                android:rowCount="2">
+
+                <TextView
+                    android:id="@+id/matchHsRatio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="00% HS"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="13sp" />
+            </GridLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

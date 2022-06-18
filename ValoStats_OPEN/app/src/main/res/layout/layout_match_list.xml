@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/primaryColor"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/recView"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="#43A047"
+        android:orientation="vertical" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/match_imgMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/view_ascent"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/reclayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/matchfill_win"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical"
+                android:rowCount="2">
+
+                <ImageView
+                    android:id="@+id/matchImgTier"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icon_unknown" />
+
+                <TextView
+                    android:id="@+id/matchTvMMR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="00"
+                    android:textColor="#00FFCF" />
+
+            </GridLayout>
+
+            <ImageView
+                android:id="@+id/matchAgent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight=".1"
+                android:src="@drawable/icon_iron1" />
+
+            <GridLayout
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:orientation="vertical"
+                android:rowCount="2">
+
+                <TextView
+                    android:id="@+id/matchMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="MAP"
+                    android:textAlignment="center"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="80dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#222831">
+
+                    <TextView
+                        android:id="@+id/matchTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="00 : 00 PM"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="9sp" />
+                </com.google.android.material.card.MaterialCardView>
+            </GridLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/matchRoundWon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="00"
+                        android:textColor="#00FFCF"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:fontFamily="@font/inter_bold"
+                        android:text=":"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/matchRoundLose"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="00"
+                        android:textColor="#EF5351"
+                        android:textSize="16sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="50dp"
+                    android:layout_height="18dp"
+                    android:visibility="gone"
+                    app:cardBackgroundColor="@color/radiantTextColor">
+
+                    <TextView
+                        android:id="@+id/matchPerformanceRank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="MVP"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="12sp" />
+                </com.google.android.material.card.MaterialCardView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:columnCount="1"
+                android:rowCount="2">
+
+                <TextView
+                    android:id="@+id/matchKDARatio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="0.00 KDA"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/matchKDA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_regular"
+                    android:text="00 / 00 / 00"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="10sp" />
+
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:columnCount="1"
+                android:rowCount="2">
+
+                <TextView
+                    android:id="@+id/matchHeadshotRatio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="00% HS"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/matchACS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_regular"
+                    android:text="000 ACS"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="10sp" />
+
+            </GridLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
