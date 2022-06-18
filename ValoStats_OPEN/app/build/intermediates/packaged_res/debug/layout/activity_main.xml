@@ -64,7 +64,6 @@
             android:imeOptions="actionSearch"
             android:paddingLeft="20dp"
             android:singleLine="true"
-            android:text="McDyabols#8888"
             android:textColor="@color/primaryDarkColor"
             android:textColorHint="#80393E46" />
 

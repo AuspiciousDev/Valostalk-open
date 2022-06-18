@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\chest\.gradle\caches\transforms-3\53cd386dece606142369ed2b2f9fbe1c\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\chest\.gradle\caches\transforms-3\f48855be9c3106e104639f34faeaab75\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\chest\.gradle\caches\transforms-3\5cf302c25241c94db11e55a1dd30f7ff\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -65,27 +65,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\chest\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\446039bf580a7b56c917d740393435fe\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\0260f049553131c2770f1bdcfdda9867\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\chest\.gradle\caches\transforms-3\a88435d2c9f597e7d947bfbfa6a0ceb0\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:4:5-36
-		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:2:1-55:12
-		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:2:1-55:12
-		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\e6e639f9bbad9dd688b66020970cb08a\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:22:5-67
@@ -99,17 +99,17 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\19d454377b288a1bb172e417d20d3782\transformed\play-services-measurement-sdk-api-21.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\19d454377b288a1bb172e417d20d3782\transformed\play-services-measurement-sdk-api-21.0.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:8:5-80
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:8:5-80
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:8:22-77
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:8:22-77
 application
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:10:5-53:19
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:10:5-53:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\chest\.gradle\caches\transforms-3\53cd386dece606142369ed2b2f9fbe1c\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\chest\.gradle\caches\transforms-3\53cd386dece606142369ed2b2f9fbe1c\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\chest\.gradle\caches\transforms-3\f48855be9c3106e104639f34faeaab75\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -161,85 +161,85 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\chest\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\chest\.gradle\caches\transforms-3\2408ae0c6b64e074ad570504f0fa7cb6\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:15:9-34
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:15:9-34
 	android:fullBackupContent
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:13:9-54
 	android:roundIcon
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:16:9-54
 	tools:targetApi
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:19:9-29
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:19:9-29
 	android:icon
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:18:9-47
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:18:9-47
 	android:dataExtractionRules
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:12:9-65
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:12:9-65
 activity#com.example.valostats.MatchDetailsActivity
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:20:9-24:20
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:20:9-24:20
 	android:exported
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:21:13-49
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:21:13-49
 activity#com.example.valostats.UserNotFound
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:25:9-27:40
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:26:13-41
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:26:13-41
 activity#com.example.valostats.searchResultActivity
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:28:9-30:40
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:29:13-49
 activity#com.example.valostats.Profile
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:31:9-33:40
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:32:13-36
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:32:13-36
 activity#com.example.valostats.RegistrationActivity
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:34:9-36:40
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:35:13-49
 activity#com.example.valostats.LoginActivity
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:37:9-41:20
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:37:9-41:20
 	android:exported
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:38:13-42
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:38:13-42
 activity#com.example.valostats.MainActivity
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:42:9-48:36
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:42:9-48:36
 	android:exported
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:44:13-36
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:44:13-36
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:43:13-41
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:43:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:44:38-48:25
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:44:38-48:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:45:13-65
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:45:13-65
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:45:21-62
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:45:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:47:13-73
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:47:13-73
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:47:23-70
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:47:23-70
 meta-data#preloaded_fonts
-ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:50:9-52:57
+ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:50:9-52:57
 	android:resource
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:52:13-54
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:52:13-54
 	android:name
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml:51:13-43
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:51:13-43
 uses-sdk
-INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\chest\.gradle\caches\transforms-3\53cd386dece606142369ed2b2f9fbe1c\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\chest\.gradle\caches\transforms-3\53cd386dece606142369ed2b2f9fbe1c\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\chest\.gradle\caches\transforms-3\f48855be9c3106e104639f34faeaab75\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -362,16 +362,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\chest\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\0260f049553131c2770f1bdcfdda9867\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\chest\.gradle\caches\transforms-3\a88435d2c9f597e7d947bfbfa6a0ceb0\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\chest\.gradle\caches\transforms-3\a88435d2c9f597e7d947bfbfa6a0ceb0\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\ValoStats\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\e6e639f9bbad9dd688b66020970cb08a\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:23:5-79

@@ -72,7 +72,7 @@ public class searchResultActivity extends AppCompatActivity {
     //
     private RVAMatch rvaMatch;
     private RecyclerView recyclerView;
-    private static final DecimalFormat df = new DecimalFormat("0");
+    private static final DecimalFormat df = new DecimalFormat("0.00");
     private static final DecimalFormat df2 = new DecimalFormat("0");
 
     private FloatingActionButton fab;
@@ -270,7 +270,8 @@ public class searchResultActivity extends AppCompatActivity {
         pd.setMessage("Loading Match info!");
         pd.show();
         APIUrl = "https://api.henrikdev.xyz/valorant/v3/matches/ap/";
-        APIUrl_AccountInfo = APIUrl + riotName + "/" + riotTag + "?filter="+ matchType;
+        APIUrl_AccountInfo = APIUrl + riotName.replaceAll(" ", "%20") + "/" + riotTag + "?filter=" + matchType;
+        Log.d("getMatchInfo", APIUrl_AccountInfo);
         //https://api.henrikdev.xyz/valorant/v3/matches/ap/Rezkcimhcs/SMZ01?filter=unrated
         //https://api.henrikdev.xyz/valorant/v3/matches/ap/Rezkcimhcs/SMZ01?filter=competitive
         RequestQueue requestQueue = Volley.newRequestQueue(context);

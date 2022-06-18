@@ -29,7 +29,6 @@
         android:label="Valostalk"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.ValoStats" >
         <activity
             android:name="com.example.valostats.MatchDetailsActivity"

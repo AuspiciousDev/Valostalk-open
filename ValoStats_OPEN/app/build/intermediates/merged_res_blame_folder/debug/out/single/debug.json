@@ -96,12 +96,12 @@
         "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\font_abhaya_libre.xml.flat",
-        "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\font\\abhaya_libre.xml"
-    },
-    {
         "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\menu_bottom_nav_menu.xml.flat",
         "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\font_abhaya_libre.xml.flat",
+        "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\font\\abhaya_libre.xml"
     },
     {
         "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_portrait_skye.png.flat",
@@ -172,16 +172,20 @@
         "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_icon_iron1.png.flat",
-        "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\drawable\\icon_iron1.png"
-    },
-    {
         "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_search_edtheader.xml.flat",
         "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\drawable\\search_edtheader.xml"
     },
     {
+        "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_icon_iron1.png.flat",
+        "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\drawable\\icon_iron1.png"
+    },
+    {
         "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_icon_p2.png.flat",
         "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\drawable\\icon_p2.png"
+    },
+    {
+        "merged": "com.example.valostats.app-merged_res-29:/layout_activity_search_result.xml.flat",
+        "source": "com.example.valostats.app-main-31:/layout/activity_search_result.xml"
     },
     {
         "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_icon_yoru.png.flat",
@@ -246,10 +250,6 @@
     {
         "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_icon_chamber.png.flat",
         "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\drawable\\icon_chamber.png"
-    },
-    {
-        "merged": "com.example.valostats.app-merged_res-29:/layout_activity_match_details.xml.flat",
-        "source": "com.example.valostats.app-main-31:/layout/activity_match_details.xml"
     },
     {
         "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_portrait_sage.png.flat",
@@ -404,12 +404,12 @@
         "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\drawable\\icon_b3.png"
     },
     {
-        "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_matchfill_lose.xml.flat",
-        "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\drawable\\matchfill_lose.xml"
-    },
-    {
         "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_portrait_sova.png.flat",
         "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\drawable\\portrait_sova.png"
+    },
+    {
+        "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_matchfill_lose.xml.flat",
+        "source": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-main-31:\\drawable\\matchfill_lose.xml"
     },
     {
         "merged": "C:\\Users\\chest\\.gradle\\daemon\\7.3.3\\com.example.valostats.app-merged_res-29:\\drawable_icon_sova.png.flat",

@@ -88,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
         btnSearch.setOnClickListener(view -> {
             strSearch = edtSearch.getText().toString();
             if (validate()) {
+                strSearch.replaceAll(" ", "%20");
                 sharePrefEdit.putString("searchKey", strSearch);
                 sharePrefEdit.commit();
                startActivity(new Intent(MainActivity.this, searchResultActivity.class));
@@ -224,6 +225,7 @@ public class MainActivity extends AppCompatActivity {
     private void SplitRiotTag(String riotName) {
         String[] splitSearch = riotName.split("#");
         strName = splitSearch[0];
+        strName.replaceAll(" ", "%20");
         strTag = splitSearch[1];
     }
 
