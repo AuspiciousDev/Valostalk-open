@@ -40,7 +40,7 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCeUwDVTFtBtoBd3DzuNKDnuz2jJsxz1yw</string>
     <string name="google_storage_bucket" translatable="false">mad2-2022.appspot.com</string>
     <string name="project_id" translatable="false">mad2-2022</string>
-    <style name="Theme.ValoStats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.ValoStats" parent="Theme.MaterialComponents.Light.NoActionBar">
         
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryVariant">@color/primaryLightColor</item>

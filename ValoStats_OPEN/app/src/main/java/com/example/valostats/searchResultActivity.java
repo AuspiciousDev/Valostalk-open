@@ -61,7 +61,7 @@ public class searchResultActivity extends AppCompatActivity {
     private ImageView imgProfileImage, imgCoverImage, imgTier;
     private String strSearch, strName, strTag;
     private Intent intent;
-    private TextView tvRankWithElo, tvWinRatio, tvKDARatioandWinLose;
+    private TextView tvRank, tvRankElo, tvWinRatio, tvKDARatioandWinLose;
     private String arrRRchanges[] = new String[5];
     private String arrMatchAgents[] = new String[5];
     private String arrMatchAgentsandPlayed[][];
@@ -73,7 +73,6 @@ public class searchResultActivity extends AppCompatActivity {
     private RVAMatch rvaMatch;
     private RecyclerView recyclerView;
     private static final DecimalFormat df = new DecimalFormat("0.00");
-    private static final DecimalFormat df2 = new DecimalFormat("0");
 
     private FloatingActionButton fab;
     private String MyPref = "linkedAccount";
@@ -326,9 +325,15 @@ public class searchResultActivity extends AppCompatActivity {
                                     matchHeaderDetails.setAssists(stats.getInt("assists"));
                                     Log.d("API Match Assists : ", String.valueOf(matchHeaderDetails.getAssists()));
 
-                                    double kda = (matchHeaderDetails.getKills() + matchHeaderDetails.getAssists());
+                                    double kda = matchHeaderDetails.getKills() + matchHeaderDetails.getAssists();
+                                    double kills = stats.getDouble("kills");
+                                    double deaths = stats.getDouble("deaths");
+                                    double kd = kills / deaths;
                                     matchHeaderDetails.setKdaRatio((double) Math.round((kda / matchHeaderDetails.getDeaths()) * 100) / 100);
-                                    Log.d("API Match KDA% : ", String.valueOf(matchHeaderDetails.getKdaRatio()));
+                                    matchHeaderDetails.setKdRatio(kd);
+                                    Log.d("APIMatchKDA% : ", String.valueOf(matchHeaderDetails.getKdaRatio()));
+                                    Log.d("APIMatchKD% : ", String.valueOf(kd));
+
                                     double kdaTotal = resultHeader.getPlayerTotalKDRatio();
                                     kdaTotal = kdaTotal + matchHeaderDetails.getKdaRatio();
                                     resultHeader.setPlayerTotalKDRatio(kdaTotal);
@@ -343,7 +348,10 @@ public class searchResultActivity extends AppCompatActivity {
                                     double hs = matchHeaderDetails.getHeadshots() / totalShot;
                                     Log.d("API Match HS%1 : ", String.valueOf(hs));
                                     matchHeaderDetails.setHeadshotratio((double) Math.round((matchHeaderDetails.getHeadshots() / totalShot) * 100));
+                                    double totalHS = resultHeader.getTotalHeadshotratio() + matchHeaderDetails.getHeadshotratio();
+                                    resultHeader.setTotalHeadshotratio(totalHS);
                                     Log.d("API Match HS% : ", String.valueOf(matchHeaderDetails.getHeadshotratio()));
+                                    Log.d("APIAveHS% : ", String.valueOf(resultHeader.getTotalHeadshotratio()));
 
                                     JSONObject teams = metadata.getJSONObject("teams");
                                     Log.d("API TEAMS WHOLE", String.valueOf(teams));
@@ -496,11 +504,12 @@ public class searchResultActivity extends AppCompatActivity {
                 .fit().centerInside()
                 .placeholder(R.drawable.logo1)
                 .into(imgTier);
-        tvRankWithElo.setText(resultHeader.getCurrenttierpatched() + " - " + resultHeader.getRanking_in_tier());
+        tvRank.setText(resultHeader.getCurrenttierpatched());
+        tvRankElo.setText(String.valueOf(resultHeader.getRanking_in_tier()));
         tvKDARatioandWinLose.setText(String.valueOf(df.format(resultHeader.getPlayerTotalKDRatio() / 5))
-                + " KDA | " + resultHeader.getPlayerTotalWin() + "W  " + (5 - resultHeader.getPlayerTotalWin()) + "L");
-        tvWinRatio.setText(String.valueOf(df.format((resultHeader.getPlayerTotalWin() / 5.00) * 100)) + "% Win Rate");
-
+                + " KDA" + "   |   " + df.format(resultHeader.getTotalHeadshotratio() / 5) + " HS%");
+        tvWinRatio.setText(String.valueOf(resultHeader.getPlayerTotalWin() + "W - " + (5 - resultHeader.getPlayerTotalWin()) + "L" + "   |   " + new DecimalFormat("#").format((resultHeader.getPlayerTotalWin() / 5.00) * 100) + "% Win Rate"));
+//        tvWinRatio.setText(matchHeaderDetails.ge);
         getTopPlayed();
     }
 
@@ -532,27 +541,33 @@ public class searchResultActivity extends AppCompatActivity {
         });
         int arrayCount = arrMatchAgentsandPlayed.length - 1;
         if (!(arrayCount == -1)) {
-            tvAgent1.setText(String.valueOf((Double.parseDouble(arrMatchAgentsandPlayed[0][1]) / 5) * 100.00) + "%");
+            tvAgent1.setText(String.valueOf(new DecimalFormat("#").format((Double.parseDouble(arrMatchAgentsandPlayed[0][1]) / 5) * 100)) + "%");
+            setTopAgentIcon(getApplicationContext(), arrMatchAgentsandPlayed[0][0], imgAgent1);
+
             Log.d("TopAgent1", String.valueOf((Double.parseDouble(arrMatchAgentsandPlayed[0][1]) / 5) * 100.00) + "%");
-            setIconTop1(getApplicationContext(), arrMatchAgentsandPlayed[0][0], imgAgent2);
             Log.d("TopAgentIcon1", arrMatchAgentsandPlayed[0][0]);
+
             arrayCount--;
         }
         if (!(arrayCount == -1)) {
-            tvAgent2.setText(String.valueOf((Double.parseDouble(arrMatchAgentsandPlayed[1][1]) / 5) * 100.00) + "%");
+            tvAgent2.setText(String.valueOf(new DecimalFormat("#").format((Double.parseDouble(arrMatchAgentsandPlayed[1][1]) / 5) * 100)) + "%");
+            setTopAgentIcon(getApplicationContext(), arrMatchAgentsandPlayed[1][0], imgAgent2);
+
             Log.d("TopAgent2", String.valueOf((Double.parseDouble(arrMatchAgentsandPlayed[1][1]) / 5) * 100.00) + "%");
-            setIconTop1(getApplicationContext(), arrMatchAgentsandPlayed[1][0], imgAgent1);
             Log.d("TopAgentIcon2", arrMatchAgentsandPlayed[1][0]);
+
             arrayCount--;
         } else {
             imgAgent2.setVisibility(View.GONE);
             tvAgent2.setVisibility(View.GONE);
         }
         if (!(arrayCount == -1)) {
-            tvAgent3.setText(String.valueOf((Double.parseDouble(arrMatchAgentsandPlayed[2][1]) / 5) * 100.00) + "%");
+            tvAgent3.setText(String.valueOf(new DecimalFormat("#").format((Double.parseDouble(arrMatchAgentsandPlayed[2][1]) / 5) * 100)) + "%");
+            setTopAgentIcon(getApplicationContext(), arrMatchAgentsandPlayed[2][0], imgAgent3);
+
             Log.d("TopAgent3", String.valueOf((Double.parseDouble(arrMatchAgentsandPlayed[2][1]) / 5) * 100.00) + "%");
-            setIconTop1(getApplicationContext(), arrMatchAgentsandPlayed[2][0], imgAgent3);
             Log.d("TopAgentIcon3", arrMatchAgentsandPlayed[2][0]);
+
             arrayCount--;
         } else {
             imgAgent3.setVisibility(View.GONE);
@@ -560,7 +575,7 @@ public class searchResultActivity extends AppCompatActivity {
         }
     }
 
-    private void setIconTop1(Context context, String agentName, ImageView imageView) {
+    private void setTopAgentIcon(Context context, String agentName, ImageView imageView) {
         if (agentName.equals("Sova")) {
             Picasso.with(context)
                     .load(R.drawable.icon_sova)
@@ -679,7 +694,8 @@ public class searchResultActivity extends AppCompatActivity {
 
         //Rank Header
         imgTier = findViewById(R.id.res_imgTier);
-        tvRankWithElo = findViewById(R.id.res_tvRankWithElo);
+        tvRank = findViewById(R.id.res_tvRank);
+        tvRankElo = findViewById(R.id.res_tvRankElo);
 
         //Match Header
         recyclerView = findViewById(R.id.matchRecyclerView);

@@ -24,7 +24,7 @@
             android:layout_height="match_parent"
             android:alpha="1"
             android:scaleType="centerCrop"
-            android:src="@drawable/view_ascent"/>
+            android:src="@drawable/view_ascent" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:id="@+id/reclayout"
@@ -68,7 +68,7 @@
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_weight=".1"
-                android:src="@drawable/icon_iron1" />
+                android:src="@drawable/icon_jett" />
 
             <GridLayout
                 android:layout_width="60dp"
@@ -90,10 +90,10 @@
 
                 <com.google.android.material.card.MaterialCardView
                     android:layout_width="80dp"
-                    android:layout_height="15dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center_horizontal"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
-                    android:layout_gravity="center_horizontal"
                     android:layout_marginRight="10dp"
                     app:cardBackgroundColor="#222831">
 
@@ -129,7 +129,7 @@
                         android:fontFamily="@font/inter_bold"
                         android:text="00"
                         android:textColor="#00FFCF"
-                        android:textSize="16sp" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -139,7 +139,7 @@
                         android:fontFamily="@font/inter_bold"
                         android:text=":"
                         android:textColor="#FFFFFF"
-                        android:textSize="16sp" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/matchRoundLose"
@@ -148,7 +148,7 @@
                         android:fontFamily="@font/inter_bold"
                         android:text="00"
                         android:textColor="#EF5351"
-                        android:textSize="16sp" />
+                        android:textSize="18sp" />
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
                 <com.google.android.material.card.MaterialCardView
@@ -191,7 +191,7 @@
                     android:id="@+id/matchKDA"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter_regular"
+                    android:fontFamily="@font/inter_semibold"
                     android:text="00 / 00 / 00"
                     android:textColor="@color/primaryTextColor"
                     android:textSize="10sp" />
@@ -219,7 +219,7 @@
                     android:id="@+id/matchACS"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter_regular"
+                    android:fontFamily="@font/inter_semibold"
                     android:text="000 ACS"
                     android:textColor="@color/primaryTextColor"
                     android:textSize="10sp" />

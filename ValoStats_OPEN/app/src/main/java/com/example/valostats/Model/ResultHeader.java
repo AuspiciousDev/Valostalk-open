@@ -13,11 +13,21 @@ public class ResultHeader {
     private double PlayerTotalKDRatio;
     private String level;
     private String region;
-
+    private double totalHeadshotratio;
     public ResultHeader() {
 
     }
+    public ResultHeader(double totalHeadshotratio) {
+        this.totalHeadshotratio = totalHeadshotratio;
+    }
 
+    public double getTotalHeadshotratio() {
+        return totalHeadshotratio;
+    }
+
+    public void setTotalHeadshotratio(double totalHeadshotratio) {
+        this.totalHeadshotratio = totalHeadshotratio;
+    }
     public ResultHeader(String puuid, String name, String tag, String cardSmallUrl, int currenttier, String currenttierpatched, int ranking_in_tier, int mmr_change_to_last_game, int playerTotalWin, double playerTotalKDRatio, String level, String region) {
         this.puuid = puuid;
         this.name = name;

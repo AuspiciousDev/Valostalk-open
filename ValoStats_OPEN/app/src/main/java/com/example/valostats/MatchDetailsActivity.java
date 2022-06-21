@@ -36,6 +36,7 @@ import org.json.JSONObject;
 import org.w3c.dom.Text;
 
 import java.io.UnsupportedEncodingException;
+import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -54,6 +55,7 @@ public class MatchDetailsActivity extends AppCompatActivity {
     private TextView tvMap, tvBlueRounds, tvRedRounds, tvBlueKDA, tvRedKDA, tvRedHS, tvBlueHS;
     private ImageView matchMapHeader;
     private LinearLayout linearLayout;
+    private static final DecimalFormat df = new DecimalFormat("0.00");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -189,14 +191,15 @@ public class MatchDetailsActivity extends AppCompatActivity {
                             rTotalKills = rTotalKills + kills;
                             rTotalDeaths = rTotalDeaths + deaths;
                             rTotalAssists = rTotalAssists + assists;
-
+                            Log.d("redKDA ", String.valueOf(rTotalKills + " " + rTotalAssists + " " + rTotalDeaths));
                             entries.add(matchHeaderDetails);
                         }
-                        String RKDA = String.valueOf(rTotalKills) + " / " + String.valueOf(rTotalDeaths) + " / " + String.valueOf(rTotalAssists);
-                        tvRedKDA.setText(RKDA);
-                        //teamTotalHS = teamTotalHShots / teamTotalShots;
-                        tvRedHS.setText(String.valueOf(teamTotalHShots / 5) + " HS%");
+                        double redKDA = (rTotalKills + rTotalAssists);
+                        redKDA = redKDA / rTotalDeaths;
+                        Log.d("redKDA ", String.valueOf(rTotalKills + rTotalAssists));
 
+                        tvRedKDA.setText(df.format(redKDA) + " KDA");
+                        tvRedHS.setText(String.valueOf(teamTotalHShots / 5) + " HS%");
 
                         teamTotalHShots = 0;
                         teamTotalShots = 0;
@@ -264,9 +267,11 @@ public class MatchDetailsActivity extends AppCompatActivity {
 
                             entries2.add(matchHeaderDetails);
                         }
-                        teamTotalHS = 0;
-                        String BKDA = String.valueOf(bTotalKills) + " / " + String.valueOf(bTotalDeaths) + " /  " + String.valueOf(bTotalAssists);
-                        tvBlueKDA.setText(BKDA);
+                        double blueKDA = (bTotalKills + bTotalAssists);
+                        blueKDA = blueKDA / bTotalDeaths;
+                        Log.d("redKDA ", String.valueOf(bTotalKills + bTotalAssists));
+
+                        tvBlueKDA.setText(df.format(blueKDA) + " KDA");
                         tvBlueHS.setText(String.valueOf(teamTotalHShots / 5) + " HS%");
 
                         LinearLayoutManager manager2 = new LinearLayoutManager(MatchDetailsActivity.this);
@@ -334,7 +339,7 @@ public class MatchDetailsActivity extends AppCompatActivity {
             SimpleDateFormat format1 = new SimpleDateFormat("EEEE, MMMMM d,yyyy hh:mm aaa");
             format1.setTimeZone(TimeZone.getTimeZone("Europe/Paris"));
 
-            SimpleDateFormat format2 = new SimpleDateFormat("MMM d, yyyy hh:mm aaa");
+            SimpleDateFormat format2 = new SimpleDateFormat("hh:mm aaa, MMM d, yyyy");
             format2.setTimeZone(TimeZone.getDefault());
 
             Date past = format1.parse(rawTime);

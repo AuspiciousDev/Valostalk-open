@@ -14,7 +14,7 @@
         <item>@font/</item>
         <item>@font/abhaya_libre</item>
         <item>@font/alata</item>
-    </array></file><file path="C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\res\values\strings.xml" qualifiers=""/><file path="C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.ValoStats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </array></file><file path="C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\res\values\strings.xml" qualifiers=""/><file path="C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.ValoStats" parent="Theme.MaterialComponents.Light.NoActionBar">
         
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryVariant">@color/primaryLightColor</item>
@@ -27,7 +27,7 @@
         
         <item name="android:statusBarColor" ns1:targetApi="l">@color/primaryLightColor</item>
         
-    </style></file><file path="C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.ValoStats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style></file><file path="C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.ValoStats" parent="Theme.MaterialComponents.Light.NoActionBar">
         
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryVariant">@color/primaryLightColor</item>

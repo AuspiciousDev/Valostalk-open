@@ -183,7 +183,8 @@ id res_tvAgent2nd
 id res_tvAgent3rd
 id res_tvKDARatioandWinLose
 id res_tvLevel
-id res_tvRankWithElo
+id res_tvRank
+id res_tvRankElo
 id res_tvRiotUsername
 id res_tvWinRatio
 id result_imgCoverPhoto

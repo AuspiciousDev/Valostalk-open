@@ -132,20 +132,20 @@
                         </androidx.cardview.widget.CardView>
 
 
-<!--                        <androidx.appcompat.widget.LinearLayoutCompat-->
-<!--                            android:layout_width="match_parent"-->
-<!--                            android:layout_height="match_parent"-->
-<!--                            android:layout_weight=".5"-->
-<!--                            android:background="#2C2F35"-->
-<!--                            android:gravity="center">-->
+                        <!--                        <androidx.appcompat.widget.LinearLayoutCompat-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="match_parent"-->
+                        <!--                            android:layout_weight=".5"-->
+                        <!--                            android:background="#2C2F35"-->
+                        <!--                            android:gravity="center">-->
 
-<!--                            <TextView-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:fontFamily="@font/inter_medium"-->
-<!--                                android:text="UNRATED"-->
-<!--                                android:textColor="@color/primaryTextColor" />-->
-<!--                        </androidx.appcompat.widget.LinearLayoutCompat>-->
+                        <!--                            <TextView-->
+                        <!--                                android:layout_width="wrap_content"-->
+                        <!--                                android:layout_height="wrap_content"-->
+                        <!--                                android:fontFamily="@font/inter_medium"-->
+                        <!--                                android:text="UNRATED"-->
+                        <!--                                android:textColor="@color/primaryTextColor" />-->
+                        <!--                        </androidx.appcompat.widget.LinearLayoutCompat>-->
                     </LinearLayout>
 
 
@@ -184,8 +184,17 @@
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="15dp"
                         android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/res_tvRank"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/inter_bold"
+                            android:text="RADIANT"
+                            android:textColor="@color/primaryTextColor"
+                            android:textSize="18sp" />
 
                         <androidx.appcompat.widget.LinearLayoutCompat
                             android:layout_width="wrap_content"
@@ -193,48 +202,30 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                android:id="@+id/res_tvRankWithElo"
+                                android:id="@+id/res_tvRankElo"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/inter_bold"
-                                android:text="RADIANT - 500 "
+                                android:fontFamily="@font/inter_semibold"
+                                android:text="500 "
                                 android:textColor="@color/primaryTextColor"
-                                android:textSize="18sp" />
+                                android:textSize="16sp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_gravity="start"
-                                android:layout_marginLeft="2dp"
+                                android:layout_marginLeft="3dp"
                                 android:fontFamily="@font/inter_bold"
                                 android:text="RR"
                                 android:textColor="@color/primaryTextColor"
-                                android:textSize="9sp" />
+                                android:textSize="10sp" />
                         </androidx.appcompat.widget.LinearLayoutCompat>
-
-                        <TextView
-                            android:id="@+id/res_tvKDARatioandWinLose"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/inter_regular"
-                            android:text="0.00 KDA | 1W 5L"
-                            android:textColor="@color/primaryTextColor" />
-
-                        <TextView
-                            android:id="@+id/res_tvWinRatio"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/inter_regular"
-                            android:text="50% Win Rate"
-                            android:textColor="@color/primaryTextColor" />
-
 
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
                 <androidx.appcompat.widget.LinearLayoutCompat
-                    android:layout_width="140dp"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
                     android:layout_weight=".6"
@@ -246,10 +237,11 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/inter_bold"
                         android:text="Most Played"
-                        android:textColor="@color/primaryTextColor" />
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="14dp" />
 
                     <GridLayout
-                        android:layout_width="150sp"
+                        android:layout_width="130dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:columnCount="3"
@@ -257,28 +249,28 @@
 
                         <ImageView
                             android:id="@+id/res_imgAgent1st"
-                            android:layout_width="25dp"
-                            android:layout_height="25dp"
-                            android:layout_columnWeight=".33"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_columnWeight=".1"
                             android:src="@drawable/icon_sova" />
 
                         <ImageView
                             android:id="@+id/res_imgAgent2nd"
-                            android:layout_width="25dp"
-                            android:layout_height="25dp"
-                            android:layout_columnWeight=".33"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_columnWeight=".1"
                             android:src="@drawable/icon_omen" />
 
                         <ImageView
                             android:id="@+id/res_imgAgent3rd"
-                            android:layout_width="25dp"
-                            android:layout_height="25dp"
-                            android:layout_columnWeight=".33"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_columnWeight=".1"
                             android:src="@drawable/icon_chamber" />
                     </GridLayout>
 
                     <GridLayout
-                        android:layout_width="150sp"
+                        android:layout_width="130dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:columnCount="3"
@@ -288,8 +280,8 @@
                             android:id="@+id/res_tvAgent1st"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_columnWeight=".33"
-                            android:fontFamily="@font/inter_regular"
+                            android:layout_columnWeight=".1"
+                            android:fontFamily="@font/inter_semibold"
                             android:text="60%"
                             android:textAlignment="center"
                             android:textColor="@color/primaryTextColor"
@@ -300,8 +292,8 @@
                             android:id="@+id/res_tvAgent2nd"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_columnWeight=".33"
-                            android:fontFamily="@font/inter_regular"
+                            android:layout_columnWeight=".1"
+                            android:fontFamily="@font/inter_semibold"
                             android:text="20%"
                             android:textAlignment="center"
                             android:textColor="@color/primaryTextColor"
@@ -314,8 +306,8 @@
                             android:layout_height="wrap_content"
                             android:layout_row="0"
                             android:layout_column="2"
-                            android:layout_columnWeight=".33"
-                            android:fontFamily="@font/inter_regular"
+                            android:layout_columnWeight=".1"
+                            android:fontFamily="@font/inter_semibold"
                             android:text="20%"
                             android:textAlignment="center"
                             android:textColor="@color/primaryTextColor"
@@ -388,6 +380,35 @@
             </androidx.appcompat.widget.LinearLayoutCompat>
 
         </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@color/primaryColor90"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/res_tvWinRatio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/inter_semibold"
+                android:text="1W 5L   |   50% Win Rate"
+                android:textColor="@color/primaryTextColor" />
+
+            <TextView
+                android:id="@+id/res_tvKDARatioandWinLose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/inter_semibold"
+                android:text="0.00 KDA   |   20%HS"
+                android:textColor="@color/primaryTextColor" />
+        </LinearLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"

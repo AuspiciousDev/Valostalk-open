@@ -29,6 +29,7 @@ import java.util.ArrayList;
 public class RVAMatch extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private Context context;
+
     // ArrayList<ResultHeader> resultList = new ArrayList<>();
     ArrayList<MatchHeaderDetails> matchDetailsList = new ArrayList<>();
     private static final DecimalFormat df = new DecimalFormat("0.00");
@@ -67,10 +68,11 @@ public class RVAMatch extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         viewHolderMatch.tvMatchRoundLose.setText(String.valueOf(matchHeaderDetails.getRounds_lost()));
         viewHolderMatch.tvMatchTime.setText(String.valueOf(matchHeaderDetails.getGame_start_patched()));
         //viewHolderMatch.tvMatchPerformanceRank.setText(mat.getRanking_in_tier());
-        viewHolderMatch.tvMatchKDRatio.setText(String.valueOf(df.format(matchHeaderDetails.getKdaRatio()) + " KD"));
+        viewHolderMatch.tvMatchKDRatio.setText(String.valueOf(df.format(matchHeaderDetails.getKdRatio()) + " KD"));
         viewHolderMatch.tvMatchKDA.setText(String.valueOf(matchHeaderDetails.getKills() + " / " + matchHeaderDetails.getDeaths() + " / " + matchHeaderDetails.getAssists()));
-        viewHolderMatch.tvMatchHeadshotRatio.setText(String.valueOf(matchHeaderDetails.getHeadshotratio() + " HS%"));
+        viewHolderMatch.tvMatchHeadshotRatio.setText(String.valueOf(new DecimalFormat("#").format(matchHeaderDetails.getHeadshotratio()) + " HS%"));
         viewHolderMatch.tvMatchACS.setText((String.valueOf(matchHeaderDetails.getScore() / matchHeaderDetails.getRounds_played()) + " ACS"));
+
         if (matchHeaderDetails.isHas_won()) {
             viewHolderMatch.view.setBackgroundColor(ContextCompat.getColor(context, R.color.lightGreen));
             viewHolderMatch.layoutCompat.setBackground(ContextCompat.getDrawable(context, R.drawable.matchfill_win));

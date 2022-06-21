@@ -16,10 +16,12 @@ public class MatchHeaderDetails implements Serializable {
     private int rounds_won;
     private int rounds_lost;
     private double kdaRatio;
+    private double kdRatio;
     private int kills;
     private int deaths;
     private int assists;
     private double headshotratio;
+
     private int headshots;
     private int bodyshots;
     private int legshots;
@@ -35,23 +37,13 @@ public class MatchHeaderDetails implements Serializable {
     private String rrChanges;
     private String matchID;
 
-    public  MatchHeaderDetails (){
+    public MatchHeaderDetails() {
 
     }
 
-    public MatchHeaderDetails(int adr) {
-        this.adr = adr;
-    }
 
-    public int getAdr() {
-        return adr;
-    }
 
-    public void setAdr(int adr) {
-        this.adr = adr;
-    }
-
-    public MatchHeaderDetails(int mmr_change_to_last_game, String riotName, String riotTag, String character, String characterIcon, String map, String game_start_patched, String teamSide, boolean has_won, int rounds_played, int rounds_won, int rounds_lost, double kdaRatio, int kills, int deaths, int assists, double headshotratio, int headshots, int bodyshots, int legshots, int score, double acs, String tierIcon, String agentIcon, String tierColor, int MMR, int damageMade, String matchTier, String rrChanges, String matchID) {
+    public MatchHeaderDetails(int mmr_change_to_last_game, String riotName, String riotTag, String character, String characterIcon, String map, String game_start_patched, String teamSide, boolean has_won, int rounds_played, int rounds_won, int rounds_lost, double kdaRatio, double kdRatio, int kills, int deaths, int assists, double headshotratio, int headshots, int bodyshots, int legshots, int score, double acs, String tierIcon, String agentIcon, String tierColor, int MMR, int damageMade, int adr, String matchTier, String rrChanges, String matchID) {
         this.mmr_change_to_last_game = mmr_change_to_last_game;
         this.riotName = riotName;
         this.riotTag = riotTag;
@@ -65,6 +57,7 @@ public class MatchHeaderDetails implements Serializable {
         this.rounds_won = rounds_won;
         this.rounds_lost = rounds_lost;
         this.kdaRatio = kdaRatio;
+        this.kdRatio = kdRatio;
         this.kills = kills;
         this.deaths = deaths;
         this.assists = assists;
@@ -79,6 +72,7 @@ public class MatchHeaderDetails implements Serializable {
         this.tierColor = tierColor;
         this.MMR = MMR;
         this.damageMade = damageMade;
+        this.adr = adr;
         this.matchTier = matchTier;
         this.rrChanges = rrChanges;
         this.matchID = matchID;
@@ -186,6 +180,14 @@ public class MatchHeaderDetails implements Serializable {
 
     public void setKdaRatio(double kdaRatio) {
         this.kdaRatio = kdaRatio;
+    }
+
+    public double getKdRatio() {
+        return kdRatio;
+    }
+
+    public void setKdRatio(double kdRatio) {
+        this.kdRatio = kdRatio;
     }
 
     public int getKills() {
@@ -298,6 +300,14 @@ public class MatchHeaderDetails implements Serializable {
 
     public void setDamageMade(int damageMade) {
         this.damageMade = damageMade;
+    }
+
+    public int getAdr() {
+        return adr;
+    }
+
+    public void setAdr(int adr) {
+        this.adr = adr;
     }
 
     public String getMatchTier() {

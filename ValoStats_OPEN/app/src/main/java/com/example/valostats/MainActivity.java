@@ -113,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                sharedPreferences.edit().clear().commit();
+                                checkLinkedAccount();
                                 //settings.edit().remove("KeyName").commit();
                             }
                         });
@@ -176,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
                         sharePrefEdit.putString("cardKey", linkedAccount.getCard());
                         sharePrefEdit.commit();
                         Snackbar.make(findViewById(android.R.id.content), "Account Linked!", Snackbar.LENGTH_SHORT).show();
-
+                        checkLinkedAccount();
                         pd.dismiss();
                         // setLinkedAccount();
                     } catch (JSONException e) {
@@ -187,34 +188,6 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, UserNotFound.class);
             intent.putExtra("riotUsername", strSearch);
             startActivity(intent);
-//                new Response.ErrorListener() {
-//            @Override
-//            public void onErrorResponse(VolleyError volleyError) {
-//                try {
-//                    String responseBody = new String(volleyError.networkResponse.data, "utf-8");
-//                    JSONObject jsonObject = new JSONObject(responseBody);
-//                    String error = jsonObject.getString("status");
-//                    //Toast.makeText(context, error.toString(), Toast.LENGTH_LONG).show();
-//
-//                    AlertDialog.Builder builder1 = new AlertDialog.Builder(MainActivity.this);
-//                    builder1.setTitle("404");
-//                    builder1.setMessage("WE COULD NOT FIND THE PLAYER\n" + name + " #" + tag);
-//                    builder1.setCancelable(true);
-//
-//                    builder1.setPositiveButton(
-//                            "Go Back",
-//                            new DialogInterface.OnClickListener() {
-//                                public void onClick(DialogInterface dialog, int id) {
-//                                    dialog.cancel();
-//                                }
-//                            });
-//                    AlertDialog alert11 = builder1.create();
-//                    alert11.show();
-//                } catch (JSONException e) {
-//                    //Handle a malformed json response
-//                } catch (UnsupportedEncodingException error) {
-//
-
             pd.dismiss();
 
         });
@@ -249,11 +222,9 @@ public class MainActivity extends AppCompatActivity {
                     .into(linkImgProfile);
             linkRiotIGN.setText(linkedAccount.getName() + " #" + linkedAccount.getTag());
             linkAccLevel.setText("Level " + linkedAccount.getLevel());
-
             linearLayoutCompat.setVisibility(View.VISIBLE);
 
         } else {
-
             btnLink.setVisibility(View.VISIBLE);
             linearLayoutCompat.setVisibility(View.GONE);
         }
