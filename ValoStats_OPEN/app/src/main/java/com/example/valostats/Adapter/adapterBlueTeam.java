@@ -156,18 +156,30 @@ public class adapterBlueTeam extends RecyclerView.Adapter<RecyclerView.ViewHolde
                     .placeholder(R.drawable.logo1)
                     .into(viewh.imgMatchRank);
         }else if (details.getMatchTier().equals("21")) {
+            Picasso.with(context).load(R.drawable.icon_asc1)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewh.imgMatchRank);
+        } else if (details.getMatchTier().equals("22")) {
+            Picasso.with(context).load(R.drawable.icon_asc1)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewh.imgMatchRank);
+        } else if (details.getMatchTier().equals("23")) {
+            Picasso.with(context).load(R.drawable.icon_asc3)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewh.imgMatchRank);
+        } else if (details.getMatchTier().equals("24")) {
             Picasso.with(context).load(R.drawable.icon_im1)
                     .placeholder(R.drawable.logo1)
                     .into(viewh.imgMatchRank);
-        }else if (details.getMatchTier().equals("22")) {
+        } else if (details.getMatchTier().equals("25")) {
             Picasso.with(context).load(R.drawable.icon_im2)
                     .placeholder(R.drawable.logo1)
                     .into(viewh.imgMatchRank);
-        }else if (details.getMatchTier().equals("23")) {
+        } else if (details.getMatchTier().equals("26")) {
             Picasso.with(context).load(R.drawable.icon_im3)
                     .placeholder(R.drawable.logo1)
                     .into(viewh.imgMatchRank);
-        }else if (details.getMatchTier().equals("24")) {
+        } else if (details.getMatchTier().equals("27")) {
             Picasso.with(context).load(R.drawable.icon_rad)
                     .placeholder(R.drawable.logo1)
                     .into(viewh.imgMatchRank);

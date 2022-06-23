@@ -21,6 +21,9 @@ color secondaryTextColor
 drawable edit_roundedcorners
 drawable ic_baseline_person_24
 drawable ic_baseline_search_24
+drawable icon_asc1
+drawable icon_asc2
+drawable icon_asc3
 drawable icon_astra
 drawable icon_b1
 drawable icon_b2
@@ -93,6 +96,7 @@ drawable portrait_viper
 drawable portrait_yoru
 drawable rankicon
 drawable search_edtheader
+drawable valoep5
 drawable valofracture
 drawable valorant_default_display_icon
 drawable valorant_official_logo_icon
@@ -103,6 +107,8 @@ drawable view_breeze
 drawable view_fracture
 drawable view_haven
 drawable view_icebox
+drawable view_pearl
+drawable view_range
 drawable view_split
 font abhaya_libre
 font alata

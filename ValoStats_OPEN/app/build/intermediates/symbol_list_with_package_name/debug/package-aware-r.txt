@@ -2518,6 +2518,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable icon_asc1
+drawable icon_asc2
+drawable icon_asc3
 drawable icon_astra
 drawable icon_b1
 drawable icon_b2
@@ -2635,6 +2638,7 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable valoep5
 drawable valofracture
 drawable valorant_default_display_icon
 drawable valorant_official_logo_icon
@@ -2645,6 +2649,8 @@ drawable view_breeze
 drawable view_fracture
 drawable view_haven
 drawable view_icebox
+drawable view_pearl
+drawable view_range
 drawable view_split
 font abhaya_libre
 font alata

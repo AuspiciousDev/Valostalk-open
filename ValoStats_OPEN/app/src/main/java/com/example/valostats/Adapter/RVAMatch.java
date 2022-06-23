@@ -54,13 +54,20 @@ public class RVAMatch extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         ViewHolderMatch viewHolderMatch = (ViewHolderMatch) holder;
         MatchHeaderDetails matchHeaderDetails = matchDetailsList.get(position);
-        if (Integer.parseInt(matchHeaderDetails.getRrChanges()) < 0) {
+        if (matchHeaderDetails.getRrChanges() == null) {
+            matchHeaderDetails.setRrChanges("0");
+        }
+        if (!(matchHeaderDetails.isHas_won())) {
             viewHolderMatch.tvMatchMMR.setTextColor(ContextCompat.getColor(context, R.color.lightRed));
             viewHolderMatch.tvMatchMMR.setText(String.valueOf(matchHeaderDetails.getRrChanges()));
         }
-        if (Integer.parseInt(matchHeaderDetails.getRrChanges()) > 0) {
+        if (matchHeaderDetails.isHas_won()) {
             viewHolderMatch.tvMatchMMR.setTextColor(ContextCompat.getColor(context, R.color.lightGreen));
             viewHolderMatch.tvMatchMMR.setText("+" + String.valueOf(matchHeaderDetails.getRrChanges()));
+        }
+        if (Integer.parseInt(matchHeaderDetails.getRrChanges()) == 0) {
+            viewHolderMatch.tvMatchMMR.setTextColor(ContextCompat.getColor(context, R.color.primaryTextColor));
+            viewHolderMatch.tvMatchMMR.setText(String.valueOf(matchHeaderDetails.getRrChanges()));
         }
 
         viewHolderMatch.tvMatchMap.setText(matchHeaderDetails.getMap());
@@ -82,11 +89,132 @@ public class RVAMatch extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             viewHolderMatch.layoutCompat.setBackground(ContextCompat.getDrawable(context, R.drawable.matchfill_lose));
 
         }
-        Picasso.with(context).load(matchHeaderDetails.getTierIcon())
-                .fit().centerInside()
-                .placeholder(R.drawable.logo1)
-                .into(viewHolderMatch.imgMatchRank);
 
+        if (matchHeaderDetails.getMatchTier().equals("0")) {
+            Picasso.with(context)
+                    .load(R.drawable.icon_unknown)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("1")) {
+            Picasso.with(context)
+                    .load(R.drawable.icon_unknown)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("2")) {
+            Picasso.with(context)
+                    .load(R.drawable.icon_unknown)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("3")) {
+            Picasso.with(context)
+                    .load(R.drawable.icon_i1)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("4")) {
+            Picasso.with(context)
+                    .load(R.drawable.icon_i2)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("5")) {
+            Picasso.with(context)
+                    .load(R.drawable.icon_i3)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("6")) {
+            Picasso.with(context)
+                    .load(R.drawable.icon_b1)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("7")) {
+            Picasso.with(context)
+                    .load(R.drawable.icon_b2)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("8")) {
+            Picasso.with(context).load(R.drawable.icon_b3)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("9")) {
+            Picasso.with(context).load(R.drawable.icon_s1)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("10")) {
+            Picasso.with(context).load(R.drawable.icon_s2)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("11")) {
+            Picasso.with(context).load(R.drawable.icon_s3)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("12")) {
+            Picasso.with(context).load(R.drawable.icon_g1)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("13")) {
+            Picasso.with(context).load(R.drawable.icon_g2)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("14")) {
+            Picasso.with(context).load(R.drawable.icon_g3)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("15")) {
+            Picasso.with(context).load(R.drawable.icon_p1)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("16")) {
+            Picasso.with(context).load(R.drawable.icon_p2)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("17")) {
+            Picasso.with(context).load(R.drawable.icon_p3)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("18")) {
+            Picasso.with(context).load(R.drawable.icon_d1)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("19")) {
+            Picasso.with(context).load(R.drawable.icon_d2)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("20")) {
+            Picasso.with(context).load(R.drawable.icon_d3)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("21")) {
+            Picasso.with(context).load(R.drawable.icon_asc1)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("22")) {
+            Picasso.with(context).load(R.drawable.icon_asc1)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("23")) {
+            Picasso.with(context).load(R.drawable.icon_asc3)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("24")) {
+            Picasso.with(context).load(R.drawable.icon_im1)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("25")) {
+            Picasso.with(context).load(R.drawable.icon_im2)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("26")) {
+            Picasso.with(context).load(R.drawable.icon_im3)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else if (matchHeaderDetails.getMatchTier().equals("27")) {
+            Picasso.with(context).load(R.drawable.icon_rad)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        } else {
+            Picasso.with(context).load(R.drawable.icon_unknown)
+                    .placeholder(R.drawable.logo1)
+                    .into(viewHolderMatch.imgMatchRank);
+        }
 
         if (matchHeaderDetails.getCharacter().equalsIgnoreCase("Astra")) {
             Picasso.with(context)
@@ -186,37 +314,42 @@ public class RVAMatch extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         if (mapName.equals("Ascent")) {
             Picasso.with(context)
                     .load(R.drawable.view_ascent)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Bind")) {
             Picasso.with(context)
                     .load(R.drawable.view_bind)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Breeze")) {
             Picasso.with(context)
                     .load(R.drawable.view_breeze)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Fracture")) {
             Picasso.with(context)
                     .load(R.drawable.view_fracture)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Haven")) {
             Picasso.with(context)
                     .load(R.drawable.view_haven)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Icebox")) {
             Picasso.with(context)
                     .load(R.drawable.view_icebox)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Split")) {
             Picasso.with(context)
                     .load(R.drawable.view_split)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
+                    .into(imageView);
+        }else if (mapName.equals("Pearl")) {
+            Picasso.with(context)
+                    .load(R.drawable.view_pearl)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         }
     }

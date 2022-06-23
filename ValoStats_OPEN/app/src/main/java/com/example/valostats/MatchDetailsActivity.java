@@ -298,37 +298,42 @@ public class MatchDetailsActivity extends AppCompatActivity {
         if (mapName.equals("Ascent")) {
             Picasso.with(context)
                     .load(R.drawable.view_ascent)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Bind")) {
             Picasso.with(context)
                     .load(R.drawable.view_bind)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Breeze")) {
             Picasso.with(context)
                     .load(R.drawable.view_breeze)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Fracture")) {
             Picasso.with(context)
                     .load(R.drawable.view_fracture)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Haven")) {
             Picasso.with(context)
                     .load(R.drawable.view_haven)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Icebox")) {
             Picasso.with(context)
                     .load(R.drawable.view_icebox)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         } else if (mapName.equals("Split")) {
             Picasso.with(context)
                     .load(R.drawable.view_split)
-                    .placeholder(R.drawable.view_ascent)
+                    .placeholder(R.drawable.view_range)
+                    .into(imageView);
+        }else if (mapName.equals("Pearl")) {
+            Picasso.with(context)
+                    .load(R.drawable.view_pearl)
+                    .placeholder(R.drawable.view_range)
                     .into(imageView);
         }
     }

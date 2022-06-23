@@ -164,11 +164,16 @@ public class searchResultActivity extends AppCompatActivity {
                     try {
                         JSONArray data = response.getJSONArray("data");
                         Log.d("API Match Icon Status ", String.valueOf(response.getString("status")));
-                        for (int x = 0; x < 5; x++) {
+                        for (int x = 0; x < data.length(); x++) {
                             JSONObject match = data.getJSONObject(x);
                             Log.d("APIArray", String.valueOf(data.length()) + "| |" + String.valueOf(x));
                             Log.d("APIArrayRR", match.getString("mmr_change_to_last_game"));
-                            arrRRchanges[x] = match.getString("mmr_change_to_last_game");
+                            if (match.getString("mmr_change_to_last_game").equals(null)) {
+                                arrRRchanges[x] = "0";
+                            } else {
+                                arrRRchanges[x] = match.getString("mmr_change_to_last_game");
+                            }
+
                         }
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -228,7 +233,7 @@ public class searchResultActivity extends AppCompatActivity {
                     try {
                         icon = new Icon();
                         JSONArray data = response.getJSONArray("data");
-                        JSONObject tier = data.getJSONObject(3);
+                        JSONObject tier = data.getJSONObject(4);
                         JSONArray EpTier = tier.getJSONArray("tiers");
 
                         Log.d("API Match Icon Status ", String.valueOf(response.getString("status")));
