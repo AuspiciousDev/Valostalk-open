@@ -135,8 +135,8 @@ public class searchResultActivity extends AppCompatActivity {
                         Log.d("API-PlayerCard :", resultHeader.getCardSmallUrl());
 
                         pd1.dismiss();
-                        getRankInfo(getApplicationContext(), riotName, riotTag);
-                        getRRchanges(getApplicationContext(), riotName, riotTag);
+                        getRankInfo(getApplicationContext(), riotName, riotTag, resultHeader.getRegion());
+                        getRRchanges(getApplicationContext(), riotName, riotTag, resultHeader.getRegion());
                     } catch (JSONException e) {
                         e.printStackTrace();
                         Toast.makeText(context, e.toString(), Toast.LENGTH_LONG).show();
@@ -153,9 +153,9 @@ public class searchResultActivity extends AppCompatActivity {
         requestQueue.add(jsonObjectRequest);
     }
 
-    private void getRRchanges(Context context, String riotName, String riotTag) {
+    private void getRRchanges(Context context, String riotName, String riotTag, String region) {
         // https://api.henrikdev.xyz/valorant/v1/mmr-history/ap/Limits/1010
-        APIUrl = "https://api.henrikdev.xyz/valorant/v1/mmr-history/ap/" + riotName + "/" + riotTag;
+        APIUrl = "https://api.henrikdev.xyz/valorant/v1/mmr-history/" + region + "/" + riotName + "/" + riotTag;
 
         RequestQueue requestQueue = Volley.newRequestQueue(context);
         requestQueue.start();
@@ -164,7 +164,13 @@ public class searchResultActivity extends AppCompatActivity {
                     try {
                         JSONArray data = response.getJSONArray("data");
                         Log.d("API Match Icon Status ", String.valueOf(response.getString("status")));
-                        for (int x = 0; x < data.length(); x++) {
+                        int arrLength = 0;
+                        if (data.length() < 5) {
+                            arrLength = data.length();
+                        } else {
+                            arrLength = 5;
+                        }
+                        for (int x = 0; x < arrLength; x++) {
                             JSONObject match = data.getJSONObject(x);
                             Log.d("APIArray", String.valueOf(data.length()) + "| |" + String.valueOf(x));
                             Log.d("APIArrayRR", match.getString("mmr_change_to_last_game"));
@@ -184,10 +190,10 @@ public class searchResultActivity extends AppCompatActivity {
         requestQueue.add(jsonObjectRequest);
     }
 
-    private void getRankInfo(Context context, String riotName, String riotTag) {
+    private void getRankInfo(Context context, String riotName, String riotTag, String region) {
         // https://api.henrikdev.xyz/valorant/v1/mmr/ap/name/tag
-        APIUrl = "https://api.henrikdev.xyz/valorant/v1/mmr/ap";
-        APIUrl_AccountInfo = APIUrl + "/" + riotName + "/" + riotTag;
+        APIUrl = "https://api.henrikdev.xyz/valorant/v1/mmr/";
+        APIUrl_AccountInfo = APIUrl + region + "/" + riotName + "/" + riotTag;
 
         ProgressDialog pd2 = new ProgressDialog(searchResultActivity.this);
         pd2.setMessage("Loading Rank Info!");
@@ -266,15 +272,15 @@ public class searchResultActivity extends AppCompatActivity {
         });
         requestQueue.add(jsonObjectRequest);
         matchType = "competitive";
-        getMatchInfo(getApplicationContext(), resultHeader.getName(), resultHeader.getTag(), matchType);
+        getMatchInfo(getApplicationContext(), resultHeader.getName(), resultHeader.getTag(), resultHeader.getRegion(), matchType);
     }
 
-    private void getMatchInfo(Context context, String riotName, String riotTag, String matchType) {
+    private void getMatchInfo(Context context, String riotName, String riotTag, String region, String matchType) {
         ProgressDialog pd = new ProgressDialog(searchResultActivity.this);
         pd.setMessage("Loading Match info!");
         pd.show();
-        APIUrl = "https://api.henrikdev.xyz/valorant/v3/matches/ap/";
-        APIUrl_AccountInfo = APIUrl + riotName.replaceAll(" ", "%20") + "/" + riotTag + "?filter=" + matchType;
+        APIUrl = "https://api.henrikdev.xyz/valorant/v3/matches/";
+        APIUrl_AccountInfo = APIUrl + region + "/" + riotName.replaceAll(" ", "%20") + "/" + riotTag + "?filter=" + matchType;
         Log.d("getMatchInfo", APIUrl_AccountInfo);
         //https://api.henrikdev.xyz/valorant/v3/matches/ap/Rezkcimhcs/SMZ01?filter=unrated
         //https://api.henrikdev.xyz/valorant/v3/matches/ap/Rezkcimhcs/SMZ01?filter=competitive
