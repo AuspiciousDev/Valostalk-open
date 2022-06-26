@@ -981,6 +981,7 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -2507,6 +2508,8 @@ drawable design_snackbar_background
 drawable edit_roundedcorners
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gradient_gray
+drawable ic_baseline_leaderboard_24
 drawable ic_baseline_person_24
 drawable ic_baseline_search_24
 drawable ic_clock_black_24dp
@@ -2565,6 +2568,7 @@ drawable icon_sova
 drawable icon_unknown
 drawable icon_viper
 drawable icon_yoru
+drawable img_sagelunar
 drawable login_bgheader
 drawable login_editheader
 drawable logo1
@@ -2634,6 +2638,7 @@ drawable portrait_viper
 drawable portrait_yoru
 drawable rankicon
 drawable search_edtheader
+drawable search_edtheader_opac
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2910,6 +2915,19 @@ id jumpToStart
 id labeled
 id lay_details
 id layout
+id leaderboardRecyclerView
+id leaderboard_btnSHOW
+id leaderboard_btnSearch
+id leaderboard_btnUpdate
+id leaderboard_edtSearch
+id leaderboard_imgProfile
+id leaderboard_imgRank
+id leaderboard_lyLeaderboards
+id leaderboard_lyRefresh
+id leaderboard_tvName
+id leaderboard_tvRR
+id leaderboard_tvRank
+id leaderboard_tvTag
 id left
 id leftToRight
 id legacy
@@ -2925,9 +2943,10 @@ id login_edtPassword
 id login_edtUsername
 id login_tvForgotPass
 id login_tvRegister
+id main_btnLeaderboard
+id main_btnLinkProfile
 id main_btnSearch
 id main_cvProfile
-id main_edtLinkProfile
 id main_edtSearch
 id main_existProfile
 id main_imgProfile
@@ -3327,6 +3346,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_friend_leaderboards
 layout activity_login
 layout activity_main
 layout activity_match_details
@@ -3351,6 +3371,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout layout_blue_team_list
+layout layout_friends_leaderboard
 layout layout_match_list
 layout layout_red_team_list
 layout m3_alert_dialog
@@ -4766,6 +4787,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

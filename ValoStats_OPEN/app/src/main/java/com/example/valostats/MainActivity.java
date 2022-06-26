@@ -49,7 +49,7 @@ import java.io.UnsupportedEncodingException;
 public class MainActivity extends AppCompatActivity {
 
     private TextInputEditText edtSearch;
-    private Button btnSearch, btnLink;
+    private Button btnSearch, btnLink, btnLeaderboard;
     private String strSearch, strName, strTag, loginUserName;
     private String MainURL = "https://api.henrikdev.xyz/valorant/v1/";
     private String AccountInfoURL;
@@ -73,7 +73,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         edtSearch = findViewById(R.id.main_edtSearch);
         btnSearch = findViewById(R.id.main_btnSearch);
-        btnLink = findViewById(R.id.main_edtLinkProfile);
+        btnLink = findViewById(R.id.main_btnLinkProfile);
+        btnLeaderboard = findViewById(R.id.main_btnLeaderboard);
 
         linkImgProfile = findViewById(R.id.main_imgProfile);
         linkRiotIGN = findViewById(R.id.main_tvName);
@@ -91,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
                 strSearch.replaceAll(" ", "%20");
                 sharePrefEdit.putString("searchKey", strSearch);
                 sharePrefEdit.commit();
-               startActivity(new Intent(MainActivity.this, searchResultActivity.class));
+                startActivity(new Intent(MainActivity.this, searchResultActivity.class));
             }
         });
         btnLink.setOnClickListener(view -> {
@@ -112,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
                         "Yes",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
-                               sharedPreferences.edit().clear().commit();
+                                sharedPreferences.edit().clear().commit();
                                 checkLinkedAccount();
                                 //settings.edit().remove("KeyName").commit();
                             }
@@ -135,7 +136,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, searchResultActivity.class);
             intent.putExtra("riotUsername", linkedAccount.getName() + "#" + linkedAccount.getTag());
             startActivity(intent);
-            
+
+        });
+        btnLeaderboard.setOnClickListener(view -> {
+            startActivity(new Intent(MainActivity.this, FriendLeaderboards.class));
         });
     }
 

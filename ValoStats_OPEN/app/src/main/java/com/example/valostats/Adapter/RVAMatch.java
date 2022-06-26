@@ -183,7 +183,7 @@ public class RVAMatch extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                     .placeholder(R.drawable.logo1)
                     .into(viewHolderMatch.imgMatchRank);
         } else if (matchHeaderDetails.getMatchTier().equals("21")) {
-            Picasso.with(context).load(R.drawable.icon_asc1)
+            Picasso.with(context).load(R.drawable.icon_asc2)
                     .placeholder(R.drawable.logo1)
                     .into(viewHolderMatch.imgMatchRank);
         } else if (matchHeaderDetails.getMatchTier().equals("22")) {

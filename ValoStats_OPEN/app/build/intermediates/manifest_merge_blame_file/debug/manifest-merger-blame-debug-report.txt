@@ -36,7 +36,7 @@
 20-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:26:22-107
 21
 22    <application
-22-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:10:5-53:19
+22-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:10:5-54:19
 23        android:allowBackup="true"
 23-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:11:9-35
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -58,175 +58,179 @@
 33        android:theme="@style/Theme.ValoStats" >
 33-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:18:9-47
 34        <activity
-34-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:20:9-24:20
-35            android:name="com.example.valostats.MatchDetailsActivity"
-35-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:21:13-49
-36            android:exported="false" >
+34-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:20:9-22:40
+35            android:name="com.example.valostats.FriendLeaderboards"
+35-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:21:13-47
+36            android:exported="false" />
 36-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:22:13-37
-37        </activity>
-38        <activity
-38-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:25:9-27:40
-39            android:name="com.example.valostats.UserNotFound"
-39-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:26:13-41
-40            android:exported="false" />
-40-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:27:13-37
-41        <activity
-41-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:28:9-30:40
-42            android:name="com.example.valostats.searchResultActivity"
-42-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:29:13-49
-43            android:exported="false" />
-43-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:30:13-37
-44        <activity
-44-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:31:9-33:40
-45            android:name="com.example.valostats.Profile"
-45-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:32:13-36
-46            android:exported="false" />
-46-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:33:13-37
-47        <activity
-47-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:34:9-36:40
-48            android:name="com.example.valostats.RegistrationActivity"
-48-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:35:13-49
-49            android:exported="false" />
-49-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:36:13-37
-50        <activity
-50-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:37:9-41:20
-51            android:name="com.example.valostats.LoginActivity"
-51-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:38:13-42
-52            android:exported="false" >
-52-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:39:13-37
-53        </activity>
-54        <activity
-54-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:42:9-48:36
-55            android:name="com.example.valostats.MainActivity"
-55-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:43:13-41
-56            android:exported="true" >
-56-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:44:13-36
-57            <intent-filter>
-57-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:44:38-48:25
-58                <action android:name="android.intent.action.MAIN" />
-58-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:45:13-65
-58-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:45:21-62
-59
-60                <category android:name="android.intent.category.LAUNCHER" />
-60-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:47:13-73
-60-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:47:23-70
-61            </intent-filter>
-62        </activity>
-63
-64        <meta-data
-64-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:50:9-52:57
-65            android:name="preloaded_fonts"
-65-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:51:13-43
-66            android:resource="@array/preloaded_fonts" />
-66-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:52:13-54
-67
-68        <service
-68-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
-69            android:name="com.google.firebase.components.ComponentDiscoveryService"
-69-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
-70            android:directBootAware="true"
-70-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
-71            android:exported="false" >
-71-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
-72            <meta-data
-72-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
-73                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-73-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
-74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
-75            <meta-data
-75-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\e6e639f9bbad9dd688b66020970cb08a\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
-76                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-76-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\e6e639f9bbad9dd688b66020970cb08a\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
-77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\e6e639f9bbad9dd688b66020970cb08a\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
-78            <meta-data
-78-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\chest\.gradle\caches\transforms-3\4df21b97bbfc424dbf7a5a8ac33b8df5\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
-79                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-79-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\chest\.gradle\caches\transforms-3\4df21b97bbfc424dbf7a5a8ac33b8df5\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
-80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\chest\.gradle\caches\transforms-3\4df21b97bbfc424dbf7a5a8ac33b8df5\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
-81        </service>
-82
-83        <provider
-83-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
-84            android:name="com.google.firebase.provider.FirebaseInitProvider"
-84-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
-85            android:authorities="com.example.valostats.firebaseinitprovider"
-85-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
-86            android:directBootAware="true"
-86-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
-87            android:exported="false"
-87-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
-88            android:initOrder="100" />
-88-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
-89
-90        <activity
-90-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\chest\.gradle\caches\transforms-3\b93684efbc18297c3f3cb3f2f50c92c7\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-91-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\chest\.gradle\caches\transforms-3\b93684efbc18297c3f3cb3f2f50c92c7\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-92            android:exported="false"
-92-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\chest\.gradle\caches\transforms-3\b93684efbc18297c3f3cb3f2f50c92c7\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-93-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\chest\.gradle\caches\transforms-3\b93684efbc18297c3f3cb3f2f50c92c7\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-94
-95        <receiver
-95-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
-96            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-96-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
-97            android:enabled="true"
-97-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
-98            android:exported="false" >
-98-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
-99        </receiver>
-100
-101        <service
-101-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
-102            android:name="com.google.android.gms.measurement.AppMeasurementService"
-102-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
-103            android:enabled="true"
-103-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
-104            android:exported="false" />
-104-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
-105        <service
-105-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
-106            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-106-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
-107            android:enabled="true"
-107-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
-108            android:exported="false"
-108-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
-109            android:permission="android.permission.BIND_JOB_SERVICE" />
-109-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
-110
-111        <meta-data
-111-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\chest\.gradle\caches\transforms-3\a58db42c24530dcae099dcb11a5bcaab\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-112            android:name="com.google.android.gms.version"
-112-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\chest\.gradle\caches\transforms-3\a58db42c24530dcae099dcb11a5bcaab\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-113            android:value="@integer/google_play_services_version" />
-113-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\chest\.gradle\caches\transforms-3\a58db42c24530dcae099dcb11a5bcaab\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-114
-115        <provider
-115-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-116            android:name="androidx.startup.InitializationProvider"
-116-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-117            android:authorities="com.example.valostats.androidx-startup"
-117-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-118            android:exported="false" >
-118-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-119            <meta-data
-119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-120                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-121                android:value="androidx.startup" />
-121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-122            <meta-data
-122-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\chest\.gradle\caches\transforms-3\51c64fceff3430466ae9e0d3dc8f31f3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-123                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-123-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\chest\.gradle\caches\transforms-3\51c64fceff3430466ae9e0d3dc8f31f3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-124                android:value="androidx.startup" />
-124-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\chest\.gradle\caches\transforms-3\51c64fceff3430466ae9e0d3dc8f31f3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-125        </provider>
-126    </application>
-127
-128</manifest>
+37        <activity
+37-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:23:9-25:49
+38            android:name="com.example.valostats.MatchDetailsActivity"
+38-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:24:13-49
+39            android:exported="false" />
+39-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:25:13-37
+40        <activity
+40-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:26:9-28:40
+41            android:name="com.example.valostats.UserNotFound"
+41-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:27:13-41
+42            android:exported="false" />
+42-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:28:13-37
+43        <activity
+43-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:29:9-31:40
+44            android:name="com.example.valostats.searchResultActivity"
+44-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:30:13-49
+45            android:exported="false" />
+45-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:31:13-37
+46        <activity
+46-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:32:9-34:40
+47            android:name="com.example.valostats.Profile"
+47-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:33:13-36
+48            android:exported="false" />
+48-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:34:13-37
+49        <activity
+49-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:35:9-37:40
+50            android:name="com.example.valostats.RegistrationActivity"
+50-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:36:13-49
+51            android:exported="false" />
+51-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:37:13-37
+52        <activity
+52-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:38:9-40:49
+53            android:name="com.example.valostats.LoginActivity"
+53-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:39:13-42
+54            android:exported="false" />
+54-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:40:13-37
+55        <activity
+55-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:41:9-49:20
+56            android:name="com.example.valostats.MainActivity"
+56-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:42:13-41
+57            android:exported="true" >
+57-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:43:13-36
+58            <intent-filter>
+58-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:44:13-48:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:45:17-69
+59-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:45:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:47:17-77
+61-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:47:27-74
+62            </intent-filter>
+63        </activity>
+64
+65        <meta-data
+65-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:51:9-53:57
+66            android:name="preloaded_fonts"
+66-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:52:13-43
+67            android:resource="@array/preloaded_fonts" />
+67-->C:\Users\chest\Documents\GitHub\Valostalk-Open\Valostalk-open\ValoStats_OPEN\app\src\main\AndroidManifest.xml:53:13-54
+68
+69        <service
+69-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+70            android:name="com.google.firebase.components.ComponentDiscoveryService"
+70-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+71            android:directBootAware="true"
+71-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+72            android:exported="false" >
+72-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+73            <meta-data
+73-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+74                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+74-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-database:20.0.5] C:\Users\chest\.gradle\caches\transforms-3\ebcda8d43aa2001b11e084bccf383e45\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+76            <meta-data
+76-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\e6e639f9bbad9dd688b66020970cb08a\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
+77                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+77-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\e6e639f9bbad9dd688b66020970cb08a\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\e6e639f9bbad9dd688b66020970cb08a\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\chest\.gradle\caches\transforms-3\4df21b97bbfc424dbf7a5a8ac33b8df5\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+80                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+80-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\chest\.gradle\caches\transforms-3\4df21b97bbfc424dbf7a5a8ac33b8df5\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\chest\.gradle\caches\transforms-3\4df21b97bbfc424dbf7a5a8ac33b8df5\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+82        </service>
+83
+84        <provider
+84-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+85            android:name="com.google.firebase.provider.FirebaseInitProvider"
+85-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+86            android:authorities="com.example.valostats.firebaseinitprovider"
+86-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+87            android:directBootAware="true"
+87-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+88            android:exported="false"
+88-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+89            android:initOrder="100" />
+89-->[com.google.firebase:firebase-common:20.1.1] C:\Users\chest\.gradle\caches\transforms-3\234f673369b04336fa11616662f0fd61\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+90
+91        <activity
+91-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\chest\.gradle\caches\transforms-3\b93684efbc18297c3f3cb3f2f50c92c7\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+92            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+92-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\chest\.gradle\caches\transforms-3\b93684efbc18297c3f3cb3f2f50c92c7\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\chest\.gradle\caches\transforms-3\b93684efbc18297c3f3cb3f2f50c92c7\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\chest\.gradle\caches\transforms-3\b93684efbc18297c3f3cb3f2f50c92c7\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+95
+96        <receiver
+96-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
+97            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+97-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
+98            android:enabled="true"
+98-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
+99            android:exported="false" >
+99-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
+100        </receiver>
+101
+102        <service
+102-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
+103            android:name="com.google.android.gms.measurement.AppMeasurementService"
+103-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
+104            android:enabled="true"
+104-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
+105            android:exported="false" />
+105-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
+106        <service
+106-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
+107            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+107-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
+108            android:enabled="true"
+108-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
+110            android:permission="android.permission.BIND_JOB_SERVICE" />
+110-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\chest\.gradle\caches\transforms-3\f08b352463c41b9acbba84fb9cc98d45\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\chest\.gradle\caches\transforms-3\a58db42c24530dcae099dcb11a5bcaab\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\chest\.gradle\caches\transforms-3\a58db42c24530dcae099dcb11a5bcaab\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\chest\.gradle\caches\transforms-3\a58db42c24530dcae099dcb11a5bcaab\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+115
+116        <provider
+116-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+117            android:name="androidx.startup.InitializationProvider"
+117-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+118            android:authorities="com.example.valostats.androidx-startup"
+118-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+119            android:exported="false" >
+119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+120            <meta-data
+120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+122                android:value="androidx.startup" />
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\chest\.gradle\caches\transforms-3\6b7d4d3337ad64852ef3b103b7611c2e\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+123            <meta-data
+123-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\chest\.gradle\caches\transforms-3\51c64fceff3430466ae9e0d3dc8f31f3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+124-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\chest\.gradle\caches\transforms-3\51c64fceff3430466ae9e0d3dc8f31f3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+125                android:value="androidx.startup" />
+125-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\chest\.gradle\caches\transforms-3\51c64fceff3430466ae9e0d3dc8f31f3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+126        </provider>
+127    </application>
+128
+129</manifest>

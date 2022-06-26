@@ -5,14 +5,15 @@ public class ResultHeader {
     private String name;
     private String tag;
     private String cardSmallUrl;
-    private int currenttier;
+    private String level;
+    private String region;
     private String currenttierpatched;
+    private int currenttier;
     private int ranking_in_tier;
     private int Mmr_change_to_last_game;
     private int PlayerTotalWin;
     private double PlayerTotalKDRatio;
-    private String level;
-    private String region;
+
     private double totalHeadshotratio;
     public ResultHeader() {
 

@@ -32,9 +32,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.ValoStats" >
         <activity
+            android:name="com.example.valostats.FriendLeaderboards"
+            android:exported="false" />
+        <activity
             android:name="com.example.valostats.MatchDetailsActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.example.valostats.UserNotFound"
             android:exported="false" />
@@ -49,8 +51,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.valostats.LoginActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.example.valostats.MainActivity"
             android:exported="true" >

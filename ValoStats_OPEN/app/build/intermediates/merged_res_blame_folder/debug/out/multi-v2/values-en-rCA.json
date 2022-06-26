@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.valostats.app-mergeDebugResources-27:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.example.valostats.app-mergeDebugResources-28:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\chest\\.gradle\\caches\\transforms-3\\2408ae0c6b64e074ad570504f0fa7cb6\\transformed\\core-1.7.0\\res\\values-en-rCA\\values-en-rCA.xml",

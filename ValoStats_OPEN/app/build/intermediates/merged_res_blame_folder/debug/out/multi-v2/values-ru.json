@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.valostats.app-mergeDebugResources-27:/values-ru/values-ru.xml",
+            "outputFile": "com.example.valostats.app-mergeDebugResources-28:/values-ru/values-ru.xml",
             "map": [
                 {
                     "source": "C:\\Users\\chest\\.gradle\\caches\\transforms-3\\a58db42c24530dcae099dcb11a5bcaab\\transformed\\play-services-basement-18.0.0\\res\\values-ru\\values.xml",
